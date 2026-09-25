@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-clearlydefined",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ClearlyDefined — the licence, copyright attribution and provenance actually found inside an open-source package, from the Linux Foundation's curated dataset.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-0dd29ec87b6851adffd80f9834855c9d6aa378137742e2c9aaca803c7b571df9",
-    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
+    "sourceHash": "v1-31c8521dec34aaf8bf24f07467eed12e36e485e1d73f54449683243b5830f07d",
+    "sourceCommit": "5b29c2b0c11e1fcd954969a245b474e6e9475116"
   }
 }
