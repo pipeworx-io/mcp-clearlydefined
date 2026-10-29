@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-clearlydefined",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "ClearlyDefined — the licence, copyright attribution and provenance actually found inside an open-source package, from the Linux Foundation's curated dataset.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-clearlydefined": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "clearlydefined"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-clearlydefined.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/clearlydefined",
   "pipeworx": {
-    "sourceHash": "v1-dd05cd4735c7d94b10be39ece4736ef444e6fb786c28a01b19d2033c766115a0",
-    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
+    "mode": "gateway",
+    "slug": "clearlydefined",
+    "gatewaySlug": "clearlydefined",
+    "sourceHash": "v1-8314c546592240b1138eefcc18fef5ea76d65304ab563afd8c4ca2062c9e172a",
+    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
   }
 }
