@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-clearlydefined",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ClearlyDefined — the licence, copyright attribution and provenance actually found inside an open-source package, from the Linux Foundation's curated dataset.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "clearlydefined",
     "gatewaySlug": "clearlydefined",
-    "sourceHash": "v1-8314c546592240b1138eefcc18fef5ea76d65304ab563afd8c4ca2062c9e172a",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-b8c2b479dffec94065c403db649acf6607b8e9a95a87f772e68b8d358ae30908",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
